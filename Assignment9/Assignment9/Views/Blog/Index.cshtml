@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Assignment9.Models.Blog>
+@{
+    ViewBag.Title = "Blog";
+}
+
+<h2>Dog Lover's Blog</h2>
+
+@*@Html.ActionLink("Add New Blog", "Create")*@
+
+@foreach (var Blog in Model)
+{
+    <div class="row">
+        <div class="col-md-1 col-md-offset-11">@Html.ActionLink("Edit", "Edit", new { id = @Blog.BlogID }) | @Html.ActionLink("Del", "Delete", new { id = @Blog.BlogID })</div>
+        <div class="col-md-3"><img src=@Blog.Image style="max-height:100%; max-width:100%;" /> <br /> <br /> <b>Favorite Breed:</b> @Blog.Favorite <br /> <b>Last Owned</b>: @Blog.Last <br /> <b>Date of Ownership:</b> @Blog.Date</div>
+        <div class="col-md-9"><b>@Blog.Name</b> <br /> <br /> @Blog.About <br /> <br /> <b>Previously Owned:</b> <br /> @Blog.Past <br /> @Blog.Past1 <br /> @Blog.Past2 <br /> @Blog.Past3 <br /> @Blog.Past4 <br /> </div>
+    </div>
+}

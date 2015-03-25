@@ -71,7 +71,7 @@ namespace Assignment9.Service
                 b.About = "We keep pets for pleasure. Some people keep dogs as pets. Others keep birds, pigeon or rabbits as pets. Pets are like our family members. They are carefully fed. Pet owners always protect their pets from danger. I have a peg dog. Its name is Jack. Jack is very beautiful. The body of My pet dog is covered with soft white fur. The eyes of Jack are large and dark. The dog is very active and playful. Jack takes rice and meat as food. It is very obedient. Jack guards our house at night. When I come back from school, My pet dog begins to jump in joy. I love my pet very much. My parents also love the dog. Very often, I play with Jack.";
                 b.Date = "3/23/2015";
                 b.Favorite = "Golden Retriever";
-                b.Image = "http://animalia-life.com/data_images/dog/dog4.jpg";
+                b.Image = "http://www.cdc.gov/animalimportation/images/dog2.jpg";
                 b.Last = "Irish Terrier";
                 b.Past = "Jack Russell";
                 b.Past1 = "";

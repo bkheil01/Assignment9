@@ -65,7 +65,7 @@ namespace Assignment9.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit([Bind(Include = "BlogID,Name,About,Image,Favorite,Last,Date")(Exclude = "Past,Past1,Past2,Past3,Past4")] Blog blog)
+        public ActionResult Edit([Bind(Include = "BlogID,Name,About,Image,Past,Past1,Past2,Past3,Past4,Favorite,Last,Date")] Blog blog)
         {
             if (ModelState.IsValid)
             {

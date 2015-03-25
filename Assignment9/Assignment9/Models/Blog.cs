@@ -14,7 +14,7 @@ namespace Assignment9.Models
         public string Name { get; set; }
         [Required]
         public string About { get; set; }
-        [Required]
+        
         public string Past { get; set; }
         public string Past1 { get; set; }
         public string Past2 { get; set; }
